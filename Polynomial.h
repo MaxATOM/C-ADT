@@ -11,9 +11,6 @@
 
 typedef monome** polynome;
 
-
-//polynome construirePolynome (int unDegree, ...);
-
 polynome construirePolynome (int unDegree, monome *pUnTab);
 char *toString(polynome unPolynome);
 void addition(polynome unPolynome, monome unMonome);

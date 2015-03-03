@@ -44,15 +44,33 @@ Services :
 * Get the derivative of a monomial
 * Get a primitive monomial
 * View a monomial on the console
-* Get the value of a monomial by a constant number
+* Get the result of a monomial according to a given number
 * Get a monomial into string format 
 * All getters
 * Check if a monomial is null
 * Check if a monomial is constant
 
-Various functions
+Polynomial
 -----------------
-Manipulating array according to some algorithms
+
+Manage a [Polynomial](http://en.wikipedia.org/wiki/Polynomial "Polynomial").
+Services : 
+
+* Add two polynomials together
+* Multiply two polynomials them
+* Get the result of a polynomial according to a given number
+* Get the root of a polynomial
+* Get a polynomial arity
+* Get the degree of a polynomial
+* Check if a polynomial is null
+* Check if a polynomial is constant
+* Get a polynomial into string format 
+* Getting the nth polynomial
+
+Functions
+-----------------
+
+Manipulating array according to some algorithms.
 Services : 
 
 
@@ -67,3 +85,32 @@ Services :
 * **suppTous** : Delete all occurrences of an element in a float array 
 * **InserElemPos** : Insert an element in an array of reals a given position 
 * **InserElem** : Insert an element in a sorted float array
+
+Point
+-----------------
+
+Manipulate a point in the geometric sense.
+Services : 
+
+* Create a point
+* Obtaining the distance from a point relative to another
+* To obtain the projected point on the X-axis or the y-axis
+* Rotate a point
+* Perform the central symmetry of a point from the origin
+* Perform a point scaling
+* Create a point from the console
+* Create an array of points from the console
+* Get a point into string format
+
+Segment
+-----------------
+
+Manipulate a line segment in the geometric sense.
+Services :
+
+* Create a segment from two points
+* Get the length of one segment
+* Get the midpoint of a segment
+* Check if two segments are aligned
+* Check if a point belongs to a segment
+* Get longest segment from a segment array
