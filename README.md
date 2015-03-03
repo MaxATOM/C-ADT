@@ -1,6 +1,6 @@
 # C++ Various ADT
 Here is the implementation of differents ADT written in C ++.
-These TAD were written in the program of the IT section of Nice-Sophia Antipolis Univeristy in France.
+These ADT were written in the program of the IT section of Nice-Sophia Antipolis Univeristy in France.
 Primarily for educational purposes.
 
 Stack
